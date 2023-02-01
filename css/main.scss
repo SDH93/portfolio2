@@ -592,8 +592,9 @@ section {
                         justify-content: center;
                         align-items: center;
                         img {
-                            width: 250px;
-                            height: 250px;
+                            width: 200px;
+                            height: 200px;
+                            padding: 50px;
                             max-height: 100%;
                             border: 2px solid #a2ff55;
                             border-radius: 20px;
@@ -772,11 +773,13 @@ section {
                                 width: 125px;
                                 height: 125px;
                                 max-height: 100%;
+                                padding: 20px;
                             }
                             @media (max-width: 500px) {
                                 img {
-                                    width: 75px;
-                                    height: 75px;
+                                    width: 100px;
+                                    height: 100px;
+                                    padding: 10px;
                                     max-height: 100%;
                                 }
                             }
